@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+    border-width: 4px;
+    margin-top: 6em;
+     margin-left: 40em;
+    margin-right: 40em;
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    min-width: 400px;
+    /* background-image: url("https://images.unsplash.com/photo-1646372988545-078d1b1f0523?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2828&q=80"); */
+    
+}
+#cheese {
+    background: rgb(130, 192, 112);
+
+    color: white;
+    margin-top: 0px; 
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-stretch: ultra-condensed;
+    font-family: 'Six Caps', sans-serif;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 0px;
+  padding-bottom: 0px;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+  text-align: left;
+  color: rgb(255, 153, 0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-family: 'Six Caps', sans-serif;
+  font-weight: bold; 
+  
+}
+
+li:before {
+  content: "X";
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 0px;
+  margin-right: 20px;
+  font-family: 'Six Caps', sans-serif;
+
+  
+
+
+  text-size-adjust: 20px;
+  color: white;
+  background-color: rgba(209, 0, 0, 0.664);
+  font-size: smaller;
+}
+
+#input-box {
+    max-width: 2000px;
+    font-size: 20px;
+    width: 71%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: rgb(130, 192, 112);
+    height: 20px;
+    border-width: 3px;
+    margin-right: 10px;
+
+    
+
+}
+
+#submit-button {
+    width: fit-content;
+    border-style: solid;
+    border-color: rgb(130, 192, 112);
+    color: rgb(130, 192, 112);
+    height: 41px;
+    background-color: white;
+    font-weight: bold;
+    border-width: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+https://images.unsplash.com/photo-1646372988545-078d1b1f0523?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2828&q=80
+
